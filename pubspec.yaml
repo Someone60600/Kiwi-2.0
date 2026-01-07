@@ -1,0 +1,45 @@
+name: kiwi_expense_tracker
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  fl_chart: ^0.63.0
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+  shared_preferences: ^2.2.2
+  # --- PDF EXPORT PACKAGES ---
+  pdf: ^3.10.4
+  printing: ^5.11.0
+  path_provider: ^2.1.1
+  table_calendar: ^3.0.9
+  image_picker: ^1.0.7
+  http: ^1.2.0
+  telephony: ^0.2.0      # To read SMS
+  uuid: ^4.2.1           # To create a random User ID
+  # --- SMS PACKAGES ---
+  flutter_sms_inbox: ^1.0.3
+  permission_handler: ^11.0.1
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
